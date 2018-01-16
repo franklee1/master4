@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=master
+Comment=master P2P Cryptocurrency
+Comment[fr]=master, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=master, eşten eşe kriptografik sanal para birimi
+Exec=master-qt %u
+Terminal=false
+Type=Application
+Icon=master128
+MimeType=x-scheme-handler/master;
+Categories=Office;Finance;

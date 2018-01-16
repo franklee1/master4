@@ -1,0 +1,3 @@
+debian/manpages/masterd.1
+debian/manpages/master.conf.5
+debian/manpages/master-cli.1

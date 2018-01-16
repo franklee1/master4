@@ -1,0 +1,22 @@
+[Unit]
+Description=master's distributed currency daemon
+After=network.target
+
+[Service]
+User=mastercore
+Group=mastercore
+
+Type=forking
+PIDFile=/var/lib/masterd/masterd.pid
+ExecStart=/usr/bin/masterd -daemon -pid=/var/lib/masterd/masterd.pid \
+-conf=/etc/mastercore/master.conf -datadir=/var/lib/masterd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

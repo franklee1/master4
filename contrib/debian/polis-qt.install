@@ -1,0 +1,6 @@
+usr/local/bin/master-qt usr/bin
+share/pixmaps/master32.xpm usr/share/pixmaps
+share/pixmaps/master16.xpm usr/share/pixmaps
+share/pixmaps/master128.png usr/share/pixmaps
+debian/master-qt.desktop usr/share/applications
+debian/master-qt.protocol usr/share/kde4/services/
